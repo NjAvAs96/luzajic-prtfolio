@@ -1,0 +1,63 @@
+#about-me {
+    background-color: #161616;
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+
+    .horisontal-line {
+        width: 2px;
+        height: 126px;
+        background-color: #cf1751;
+    }
+
+    h2 {
+        margin-top: 1%;
+        color: #cf1751;
+        font-size: 14pt;
+        font-weight: 600;
+    }
+
+    p {
+        font-family: mon-l;
+        font-size: 16pt;
+        margin-top: 1%;
+        //p
+    }
+
+    h3 {
+        margin-top: 5%;
+        font-size: 120pt;
+        color: #cf1751;
+        font-family: al;
+        font-weight: 100;
+        letter-spacing: -10px;
+    }
+
+    .bars {
+        display: flex;
+        justify-content: space-evenly;
+        width: 89%;
+        margin-top: 3%;
+        z-index: 10;
+
+        .bar {
+            padding: 2%;
+
+            p {
+                font-family: mon-b;
+                font-size: 17pt;
+                color: #fff;
+            }
+
+            div {
+                margin-top: 10px;
+                background-color: #cf1751;
+                border-radius: 10px;
+                width: 218px;
+                height: 12px;
+            }
+        }
+    }
+}
