@@ -295,10 +295,18 @@ html body #projects .project .main-page .main-page-content .column1 .horisontal-
   background-color: #cf1751;
 }
 
+html body #projects .project .main-page .main-page-content .column1 .horisontal-line.white {
+  background-color: #fff;
+}
+
 html body #projects .project .main-page .main-page-content .column1 p {
   padding-top: 25px;
   font-size: 14pt;
   color: #cf1751;
+}
+
+html body #projects .project .main-page .main-page-content .column1 .whiteC {
+  color: #fff;
 }
 
 html body #projects .project .main-page .main-page-content .column1 h4 {
@@ -310,7 +318,7 @@ html body #projects .project .main-page .main-page-content .column1 h4 {
 
 html body #projects .project .main-page .main-page-content .column2 {
   height: 100%;
-  width: 300px;
+  width: 400px;
   justify-self: center;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -325,6 +333,10 @@ html body #projects .project .main-page .main-page-content .column2 {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+html body #projects .project .main-page .main-page-content .column2 .logo {
+  width: 100%;
 }
 
 html body #projects .project .main-page .main-page-content .column2 .arrow-down {
@@ -346,6 +358,11 @@ html body #projects .project .main-page .main-page-content .column2 .arrow-down 
 
 html body #projects .project .main-page .main-page-content .column2 .arrow-down:hover {
   background-color: rgba(207, 23, 81, 0.1);
+  border-radius: 5px;
+}
+
+html body #projects .project .main-page .main-page-content .column2 .arrow-down.whiteH:hover {
+  background-color: rgba(255, 255, 255, 0.1);
   border-radius: 5px;
 }
 
@@ -410,6 +427,10 @@ html body #projects .project .main-page .main-page-content .column3 .horisontal-
   background-color: #cf1751;
 }
 
+html body #projects .project .main-page .main-page-content .column3 .horisontal-line.white {
+  background-color: #fff;
+}
+
 html body #projects .project .slides {
   width: 100%;
   min-height: 100vh;
@@ -428,6 +449,10 @@ html body #projects .project .slides .horisontal-line {
   width: 2px;
   height: 126px;
   background-color: #cf1751;
+}
+
+html body #projects .project .slides .white {
+  background-color: #fff;
 }
 
 html body #projects .project .slides img {
@@ -456,5 +481,9 @@ html body #projects .project .slides .controls .control {
 
 html body #projects .project .slides .controls .selected {
   background-color: #cf1751;
+}
+
+html body #projects .project .slides .controls .selectedW {
+  background-color: #fff;
 }
 /*# sourceMappingURL=style.css.map */

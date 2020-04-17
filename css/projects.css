@@ -34,10 +34,18 @@
   background-color: #cf1751;
 }
 
+#projects .project .main-page .main-page-content .column1 .horisontal-line.white {
+  background-color: #fff;
+}
+
 #projects .project .main-page .main-page-content .column1 p {
   padding-top: 25px;
   font-size: 14pt;
   color: #cf1751;
+}
+
+#projects .project .main-page .main-page-content .column1 .whiteC {
+  color: #fff;
 }
 
 #projects .project .main-page .main-page-content .column1 h4 {
@@ -49,7 +57,7 @@
 
 #projects .project .main-page .main-page-content .column2 {
   height: 100%;
-  width: 300px;
+  width: 400px;
   justify-self: center;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -64,6 +72,10 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+#projects .project .main-page .main-page-content .column2 .logo {
+  width: 100%;
 }
 
 #projects .project .main-page .main-page-content .column2 .arrow-down {
@@ -85,6 +97,11 @@
 
 #projects .project .main-page .main-page-content .column2 .arrow-down:hover {
   background-color: rgba(207, 23, 81, 0.1);
+  border-radius: 5px;
+}
+
+#projects .project .main-page .main-page-content .column2 .arrow-down.whiteH:hover {
+  background-color: rgba(255, 255, 255, 0.1);
   border-radius: 5px;
 }
 
@@ -149,6 +166,10 @@
   background-color: #cf1751;
 }
 
+#projects .project .main-page .main-page-content .column3 .horisontal-line.white {
+  background-color: #fff;
+}
+
 #projects .project .slides {
   width: 100%;
   min-height: 100vh;
@@ -167,6 +188,10 @@
   width: 2px;
   height: 126px;
   background-color: #cf1751;
+}
+
+#projects .project .slides .white {
+  background-color: #fff;
 }
 
 #projects .project .slides img {
@@ -195,5 +220,9 @@
 
 #projects .project .slides .controls .selected {
   background-color: #cf1751;
+}
+
+#projects .project .slides .controls .selectedW {
+  background-color: #fff;
 }
 /*# sourceMappingURL=projects.css.map */

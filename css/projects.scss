@@ -27,11 +27,19 @@
                         background-color: #cf1751;
                     }
 
+                    .horisontal-line.white {
+                        background-color: #fff;
+                    }
+
                     p {
                         padding-top: 25px;
 
                         font-size: 14pt;
                         color: #cf1751;
+                    }
+
+                    .whiteC {
+                        color: #fff;
                     }
 
                     h4 {
@@ -45,13 +53,16 @@
 
                 .column2 {
                     height: 100%;
-                    width: 300px;
+                    width: 400px;
                     justify-self: center;
                     display: flex;
                     flex-direction: column;
                     justify-content: space-evenly;
                     align-items: center;
 
+                    .logo {
+                        width: 100%;
+                    }
 
                     .arrow-down {
                         cursor: pointer;
@@ -64,6 +75,13 @@
 
                         &:hover {
                             background-color: rgba($color: #cf1751, $alpha: 0.1);
+                            border-radius: 5px;
+                        }
+                    }
+
+                    .arrow-down.whiteH {
+                        &:hover {
+                            background-color: rgba($color: #fff, $alpha: 0.1);
                             border-radius: 5px;
                         }
                     }
@@ -125,6 +143,10 @@
                         height: 126px;
                         background-color: #cf1751;
                     }
+
+                    .horisontal-line.white {
+                        background-color: #fff;
+                    }
                 }
             }
         }
@@ -143,6 +165,10 @@
                 width: 2px;
                 height: 126px;
                 background-color: #cf1751;
+            }
+
+            .white {
+                background-color: #fff;
             }
 
             img {
@@ -164,6 +190,10 @@
 
                 .selected {
                     background-color: #cf1751;
+                }
+
+                .selectedW {
+                    background-color: #fff;
                 }
             }
         }
