@@ -100,6 +100,7 @@ html body #home .home-content .heading-svg {
 html body #home .home-content .heading-svg img {
   margin: 0 auto;
   max-width: 918px;
+  width: 100%;
   height: auto;
 }
 
