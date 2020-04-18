@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: #202020;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100vw;
+            margin: 0;
+            height: 100vh;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        svg {
+            width: 55px;
+        }
+
+        @keyframes rotating {
+            from {
+
+                transform: rotate(0deg);
+            }
+
+            to {
+
+                transform: rotate(360deg);
+            }
+        }
+
+        .rotating {
+
+            animation: rotating 3s linear infinite;
+
+        }
+    </style>
+</head>
+
+<body>
+    <svg class="rotating" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 91">
+        <defs>
+            <style>
+                .cls-1 {
+                    fill: #ed1459;
+
+                }
+
+                .cls-2 {
+                    opacity: 0.86;
+                }
+
+                .cls-3 {
+                    opacity: 0.58;
+                }
+
+                .cls-4 {
+                    opacity: 0.44;
+                }
+
+                .cls-5 {
+                    opacity: 0.3;
+                }
+
+                .cls-6 {
+                    opacity: 0.72;
+                }
+            </style>
+        </defs>
+        <title>loader</title>
+        <g id="Layer_2" data-name="Layer 2">
+            <circle class="cls-1" cx="40" cy="10" r="10" />
+            <g class="cls-2">
+                <circle class="cls-1" cx="70" cy="27" r="10" />
+            </g>
+            <g class="cls-3">
+                <circle class="cls-1" cx="40" cy="81" r="10" />
+            </g>
+            <g class="cls-4">
+                <circle class="cls-1" cx="10" cy="63" r="10" />
+            </g>
+            <g class="cls-5">
+                <circle class="cls-1" cx="10" cy="27" r="10" />
+            </g>
+            <g class="cls-6">
+                <circle class="cls-1" cx="70" cy="63" r="10" />
+            </g>
+        </g>
+    </svg>
+
+</body>
+
+</html>

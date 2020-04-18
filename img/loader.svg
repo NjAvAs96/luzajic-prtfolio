@@ -1,8 +1,12 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 91">
   <defs>
     <style>
+	
+	   
+	
       .cls-1 {
         fill: #ed1459;
+		
       }
 
       .cls-2 {
@@ -24,6 +28,7 @@
       .cls-6 {
         opacity: 0.72;
       }
+	  
     </style>
   </defs>
   <title>loader</title>
