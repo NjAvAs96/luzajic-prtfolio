@@ -38,6 +38,10 @@
   background-color: #fff;
 }
 
+#projects .project .main-page .main-page-content .column1 .horisontal-line.green {
+  background-color: #0fb19a;
+}
+
 #projects .project .main-page .main-page-content .column1 p {
   padding-top: 25px;
   font-size: 14pt;
@@ -46,6 +50,10 @@
 
 #projects .project .main-page .main-page-content .column1 .whiteC {
   color: #fff;
+}
+
+#projects .project .main-page .main-page-content .column1 .greenC {
+  color: #0fb19a;
 }
 
 #projects .project .main-page .main-page-content .column1 h4 {
@@ -102,6 +110,11 @@
 
 #projects .project .main-page .main-page-content .column2 .arrow-down.whiteH:hover {
   background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 5px;
+}
+
+#projects .project .main-page .main-page-content .column2 .arrow-down.greenH:hover {
+  background-color: rgba(15, 177, 154, 0.1);
   border-radius: 5px;
 }
 
@@ -168,6 +181,10 @@
 
 #projects .project .main-page .main-page-content .column3 .horisontal-line.white {
   background-color: #fff;
+}
+
+#projects .project .main-page .main-page-content .column3 .horisontal-line.green {
+  background-color: #0fb19a;
 }
 
 .swiper-container {
