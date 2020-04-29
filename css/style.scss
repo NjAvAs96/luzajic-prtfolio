@@ -22,6 +22,10 @@ html {
   body {
     background-color: #202020;
 
+    ul {
+      list-style: none;
+    }
+
     // Home //
 
     @import 'home.scss';

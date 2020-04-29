@@ -46,6 +46,10 @@ html body {
   background-color: #202020;
 }
 
+html body ul {
+  list-style: none;
+}
+
 html body #home {
   width: 100%;
   min-height: 100vh;
@@ -432,59 +436,30 @@ html body #projects .project .main-page .main-page-content .column3 .horisontal-
   background-color: #fff;
 }
 
-html body #projects .project .slides {
+html body .swiper-container {
   width: 100%;
-  min-height: 100vh;
-  display: -ms-grid;
-  display: grid;
-  -webkit-box-align: space-evenly;
-      -ms-flex-align: space-evenly;
-          align-items: space-evenly;
-  justify-items: center;
+  height: 100vh;
+  overflow-x: hidden;
 }
 
-html body #projects .project .slides .horisontal-line {
-  -ms-flex-item-align: start;
-      -ms-grid-row-align: start;
-      align-self: start;
-  width: 2px;
-  height: 126px;
-  background-color: #cf1751;
-}
-
-html body #projects .project .slides .white {
-  background-color: #fff;
-}
-
-html body #projects .project .slides img {
-  width: 50%;
-}
-
-html body #projects .project .slides .controls {
+html body .swiper-container .swiper-wrapper .swiper-slide {
+  text-align: center;
+  font-size: 18px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 15%;
-  height: 5px;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
 }
 
-html body #projects .project .slides .controls .control {
-  width: 20%;
-  height: 100%;
-  background-color: #5c5c5c;
-}
-
-html body #projects .project .slides .controls .selected {
+html body .swiper-container .swiper-pagination .swiper-pagination-bullet {
   background-color: #cf1751;
-}
-
-html body #projects .project .slides .controls .selectedW {
-  background-color: #fff;
+  width: 100px;
+  height: 5px;
+  border-radius: 0;
 }
 /*# sourceMappingURL=style.css.map */
