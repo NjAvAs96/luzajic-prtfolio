@@ -45,10 +45,30 @@ html {
 html body {
   background-color: #202020;
   overflow-x: hidden;
+  /* width */
+  /* Track */
+  /* Handle */
+  /* Handle on hover */
 }
 
 html body ul {
   list-style: none;
+}
+
+html body ::-webkit-scrollbar {
+  width: 10px;
+}
+
+html body ::-webkit-scrollbar-track {
+  background: red;
+}
+
+html body ::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+html body ::-webkit-scrollbar-thumb:hover {
+  background: #555;
 }
 
 html body .loader {
@@ -235,7 +255,7 @@ html body #home .home-content a .arrow-down:hover {
 }
 
 html body #home .home-content .get-started {
-  width: 11%;
+  width: 13%;
   -ms-flex-item-align: end;
       align-self: flex-end;
   display: -webkit-box;
