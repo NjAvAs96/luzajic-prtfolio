@@ -16,7 +16,9 @@ a {
 html {
   color: #ddd;
   scroll-behavior: smooth;
+  // Scrollbar //
 
+  @import "scrollbar.scss";
   // BODY//
 
   body {
@@ -28,32 +30,24 @@ html {
       list-style: none;
     }
 
-
-
-
-    // Scrollbar //
-
-    @import 'scrollbar.scss';
-
     // Loader //
 
-    @import 'loader.scss';
+    @import "loader.scss";
 
     // Home //
 
-    @import 'home.scss';
+    @import "home.scss";
 
     // About //
 
-    @import 'about-me.scss';
+    @import "about-me.scss";
 
     // Projects
 
-    @import 'projects.scss';
+    @import "projects.scss";
 
     // Arrow UP //
 
-    @import 'arrow-up.scss';
-
+    @import "arrow-up.scss";
   }
 }

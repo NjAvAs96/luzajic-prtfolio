@@ -40,35 +40,41 @@ a {
 html {
   color: #ddd;
   scroll-behavior: smooth;
-}
-
-html body {
-  background-color: #202020;
-  overflow-x: hidden;
   /* width */
   /* Track */
   /* Handle */
   /* Handle on hover */
 }
 
+html ::-webkit-scrollbar {
+  width: 12px;
+}
+
+html ::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 5px #ef518d;
+  box-shadow: inset 0 0 5px #ef518d;
+  border-radius: 10px;
+}
+
+html ::-webkit-scrollbar-thumb {
+  background: rgba(182, 86, 86, 0);
+  border: 1px solid #cf1751;
+  -webkit-animation: all 5s ease;
+  animation: all 5s ease;
+  border-radius: 5px;
+}
+
+html ::-webkit-scrollbar-thumb:hover {
+  background: rgba(207, 23, 81, 0.5);
+}
+
+html body {
+  background-color: #202020;
+  overflow-x: hidden;
+}
+
 html body ul {
   list-style: none;
-}
-
-html body ::-webkit-scrollbar {
-  width: 10px;
-}
-
-html body ::-webkit-scrollbar-track {
-  background: red;
-}
-
-html body ::-webkit-scrollbar-thumb {
-  background: #888;
-}
-
-html body ::-webkit-scrollbar-thumb:hover {
-  background: #555;
 }
 
 html body .loader {
@@ -815,7 +821,7 @@ html body .arrow-up {
   display: none;
 }
 
-html body .arrow-up img {
+html body .arrow-up svg {
   width: 50%;
   position: relative;
   top: 50%;
