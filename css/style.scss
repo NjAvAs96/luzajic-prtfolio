@@ -22,9 +22,17 @@ html {
   body {
     background-color: #202020;
 
+    overflow-x: hidden;
+
     ul {
       list-style: none;
     }
+
+
+
+    // Loader //
+
+    @import 'loader.scss';
 
     // Home //
 
@@ -37,5 +45,10 @@ html {
     // Projects
 
     @import 'projects.scss';
+
+    // Arrow UP //
+
+    @import 'arrow-up.scss';
+
   }
 }

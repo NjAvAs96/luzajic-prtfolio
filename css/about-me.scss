@@ -1,15 +1,20 @@
 #about-me {
     background-color: #161616;
-    min-height: 80vh;
-    display: flex;
+    min-height: 100vh;
+    display: grid;
     flex-direction: column;
-    justify-content: flex-start;
+    justify-items: center;
     align-items: center;
 
     .horisontal-line {
+        align-self: start;
         width: 2px;
         height: 126px;
         background-color: #cf1751;
+    }
+
+    .horisontal-line.down {
+        align-self: end;
     }
 
     h2 {
@@ -23,7 +28,13 @@
         font-family: mon-l;
         font-size: 16pt;
         margin-top: 1%;
+
         //p
+    }
+
+    #about-text {
+        max-width: 592px;
+        text-align: center;
     }
 
     h3 {
@@ -36,10 +47,15 @@
     }
 
     .bars {
-        display: flex;
-        justify-content: space-evenly;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(232px, 1fr));
+        grid-column-gap: 20px;
+        grid-row-gap: 20px;
+        justify-items: center;
         width: 89%;
         margin-top: 3%;
+        margin-left: auto;
+        margin-right: auto;
         z-index: 10;
 
         .bar {
@@ -52,12 +68,183 @@
             }
 
             div {
+                position: relative;
                 margin-top: 10px;
-                background-color: #cf1751;
+                background-color: #ef518d;
                 border-radius: 10px;
                 width: 218px;
                 height: 12px;
+
+
+            }
+
+            #barILL {
+                &::after {
+                    content: '';
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+
+                    height: 100%;
+                    z-index: 10;
+                    background-color: #cf1751;
+                    border-radius: 10px;
+                    animation: barILL 0.63s ease-in;
+                    animation-fill-mode: forwards;
+                    animation-delay: 3s;
+                }
+            }
+
+            #barPS {
+                &::after {
+                    content: '';
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+
+                    height: 100%;
+                    z-index: 10;
+                    background-color: #cf1751;
+                    border-radius: 10px 0 0 10px;
+                    animation: barPS 0.63s ease-in;
+                    animation-fill-mode: forwards;
+                    animation-delay: 3s;
+                }
+            }
+
+            #barXD {
+                &::after {
+                    content: '';
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+
+                    height: 100%;
+                    z-index: 10;
+                    background-color: #cf1751;
+                    border-radius: 10px 0 0 10px;
+                    animation: barXD 0.63s ease-in;
+                    animation-fill-mode: forwards;
+                    animation-delay: 3s;
+                }
+            }
+
+            #barAE {
+                &::after {
+                    content: '';
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+
+                    height: 100%;
+                    z-index: 10;
+                    background-color: #cf1751;
+                    border-radius: 10px 0 0 10px;
+                    animation: barAE 0.63s ease-in;
+                    animation-fill-mode: forwards;
+                    animation-delay: 3s;
+                }
+            }
+
+            #barSB {
+                &::after {
+                    content: '';
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+
+                    height: 100%;
+                    z-index: 10;
+                    background-color: #cf1751;
+                    border-radius: 10px;
+                    animation: barSB 0.63s ease-in;
+                    animation-fill-mode: forwards;
+                    animation-delay: 3s;
+                }
+            }
+
+            #barIN {
+                &::after {
+                    content: '';
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+
+                    height: 100%;
+                    z-index: 10;
+                    background-color: #cf1751;
+                    border-radius: 10px 0 0 10px;
+                    animation: barIN 0.63s ease-in;
+                    animation-fill-mode: forwards;
+                    animation-delay: 3s;
+                }
             }
         }
+    }
+}
+
+@keyframes barILL {
+    from {
+        width: 0%;
+    }
+
+    to {
+        width: 100%;
+
+    }
+}
+
+@keyframes barPS {
+    from {
+        width: 0%;
+    }
+
+    to {
+        width: 50%;
+
+    }
+}
+
+@keyframes barXD {
+    from {
+        width: 0%;
+    }
+
+    to {
+        width: 95%;
+
+    }
+}
+
+@keyframes barAE {
+    from {
+        width: 0%;
+    }
+
+    to {
+        width: 45%;
+
+    }
+}
+
+@keyframes barSB {
+    from {
+        width: 0%;
+    }
+
+    to {
+        width: 100%;
+
+    }
+}
+
+@keyframes barIN {
+    from {
+        width: 0%;
+    }
+
+    to {
+        width: 95%;
+
     }
 }

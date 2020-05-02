@@ -1,0 +1,64 @@
+.loader {
+  width: 100vw;
+  height: 100vh;
+  background-color: #202020;
+  overflow: hidden;
+  z-index: 5000;
+  position: fixed;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.loader svg {
+  width: 168px;
+}
+
+@-webkit-keyframes rotating {
+  from {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+@keyframes rotating {
+  from {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+.rotating {
+  -webkit-animation: rotating 5s linear infinite;
+          animation: rotating 5s linear infinite;
+  -webkit-transform-origin: center;
+          transform-origin: center;
+}
+
+.rotating2 {
+  animation: rotating 2s linear infinite reverse;
+  -webkit-transform-origin: center;
+          transform-origin: center;
+}
+
+.loader-hidden {
+  opacity: 0;
+  -webkit-transition: opacity 1s ease;
+  transition: opacity 1s ease;
+  pointer-events: none;
+}
+/*# sourceMappingURL=loader.css.map */

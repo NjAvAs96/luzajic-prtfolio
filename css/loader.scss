@@ -1,0 +1,45 @@
+.loader {
+    width: 100vw;
+    height: 100vh;
+    background-color: #202020;
+    overflow: hidden;
+    z-index: 5000;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    svg {
+        width: 168px;
+    }
+}
+
+@keyframes rotating {
+    from {
+
+        transform: rotate(0deg);
+    }
+
+    to {
+
+        transform: rotate(360deg);
+    }
+}
+
+.rotating {
+
+    animation: rotating 5s linear infinite;
+    transform-origin: center;
+}
+
+.rotating2 {
+
+    animation: rotating 2s linear infinite reverse;
+    transform-origin: center;
+}
+
+.loader-hidden {
+    opacity: 0;
+    transition: opacity 1s ease;
+    pointer-events: none;
+}
