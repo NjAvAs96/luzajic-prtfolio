@@ -807,6 +807,22 @@ html body .swiper-container #spine-pagination .swiper-pagination-bullet-active {
   background-color: #0fb19a;
 }
 
+html body .swiper-container #fusion-pagination .swiper-pagination-bullet-active {
+  background-color: #fff;
+}
+
+html body .swiper-container #IL1-pagination .swiper-pagination-bullet-active {
+  background-color: #cf1751;
+}
+
+html body #fusionS .swiper-wrapper .swiper-slide img {
+  width: 100% !important;
+}
+
+html body #IL1S .swiper-wrapper .swiper-slide img {
+  width: 100% !important;
+}
+
 html body .arrow-up {
   position: fixed;
   bottom: 20px;

@@ -224,4 +224,20 @@
 .swiper-container #spine-pagination .swiper-pagination-bullet-active {
   background-color: #0fb19a;
 }
+
+.swiper-container #fusion-pagination .swiper-pagination-bullet-active {
+  background-color: #fff;
+}
+
+.swiper-container #IL1-pagination .swiper-pagination-bullet-active {
+  background-color: #cf1751;
+}
+
+#fusionS .swiper-wrapper .swiper-slide img {
+  width: 100% !important;
+}
+
+#IL1S .swiper-wrapper .swiper-slide img {
+  width: 100% !important;
+}
 /*# sourceMappingURL=projects.css.map */
