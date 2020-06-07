@@ -258,8 +258,9 @@
   width: 100% !important;
 }
 
-#fusionS .swiper-wrapper .swiper-slide img {
+#monkeyS .swiper-wrapper .swiper-slide img {
   width: 100% !important;
+  height: 100%;
 }
 
 #IL1S .swiper-wrapper .swiper-slide img {

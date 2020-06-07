@@ -840,6 +840,11 @@ html body #fusionS .swiper-wrapper .swiper-slide img {
   width: 100% !important;
 }
 
+html body #monkeyS .swiper-wrapper .swiper-slide img {
+  width: 100% !important;
+  height: 100%;
+}
+
 html body #IL1S .swiper-wrapper .swiper-slide img {
   width: 100% !important;
 }
