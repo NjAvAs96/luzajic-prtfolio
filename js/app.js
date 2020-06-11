@@ -38,7 +38,7 @@ function crtanje() {
         targets: '.polyline1',
         strokeDashoffset: [anime.setDashoffset, 0],
         easing: 'easeOutBounce',
-        duration: 1500,
+        duration: 1900,
         delay: 250,
         direction: 'normal',
         loop: false
