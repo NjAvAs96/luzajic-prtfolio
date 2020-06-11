@@ -192,7 +192,7 @@ html body #home .home-content .heading-svg {
   display: flex;
 }
 
-html body #home .home-content .heading-svg img {
+html body #home .home-content .heading-svg svg {
   margin: 0 auto;
   max-width: 918px;
   width: 100%;

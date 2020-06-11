@@ -28,4 +28,19 @@ $(document).ready(function () {
 window.addEventListener("load", function () {
     const loader = document.querySelector(".loader");
     loader.className += " loader-hidden";
+    crtanje();
+
+
 });
+
+function crtanje() {
+    anime({
+        targets: '.polyline1',
+        strokeDashoffset: [anime.setDashoffset, 0],
+        easing: 'easeOutBounce',
+        duration: 1500,
+        delay: 250,
+        direction: 'normal',
+        loop: false
+    });
+}
