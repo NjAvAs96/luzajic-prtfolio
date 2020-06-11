@@ -59,6 +59,8 @@
         z-index: 10;
 
         .bar {
+
+
             padding: 2%;
 
             p {
@@ -169,7 +171,7 @@
                     position: absolute;
                     top: 0;
                     left: 0;
-
+                    width: 0%;
                     height: 100%;
                     z-index: 10;
                     background-color: #cf1751;
@@ -182,6 +184,9 @@
         }
     }
 }
+
+
+
 
 @keyframes barILL {
     from {

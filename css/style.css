@@ -460,6 +460,7 @@ html body #about-me .bars .bar #barIN::after {
   position: absolute;
   top: 0;
   left: 0;
+  width: 0%;
   height: 100%;
   z-index: 10;
   background-color: #cf1751;
@@ -866,6 +867,7 @@ html body .kontakt {
 }
 
 html body .kontakt .naslov {
+  overflow: hidden;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
