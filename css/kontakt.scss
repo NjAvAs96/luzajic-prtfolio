@@ -4,7 +4,7 @@
     align-items: center;
 
     width: 100vw;
-    height: 100vh;
+    height: 100%;
     background-color: #343434;
 
     .naslov {
@@ -30,24 +30,29 @@
     }
 
     .kontakt-forma {
+        margin-bottom: 100px;
         background-color: #181818;
         width: 60%;
-        height: 60%;
+        min-height: 50%;
+        height: 80%;
+        height: auto;
         display: flex;
         justify-content: center;
         align-items: center;
 
         form {
+            padding-top: 5%;
+            padding-bottom: 5%;
             width: 80%;
-            height: 80%;
 
 
 
             .f1 {
+                margin: 20px auto;
                 display: grid;
                 grid-template-columns: repeat(2, 1fr);
-                grid-gap: 10%;
-                height: 60%;
+                grid-gap: 30px;
+
 
                 .input {
                     display: flex;
@@ -81,7 +86,7 @@
 
                 }
 
-                input {
+                textarea {
                     background-color: transparent;
                     border: none;
                     border-bottom: 1px solid #fff;
@@ -109,6 +114,39 @@
                     background-color: rgba($color: #e01a54, $alpha: 0.7)
                 }
             }
+        }
+    }
+}
+
+
+@media (max-width:1180px) {
+    .kontakt {
+        .kontakt-forma {
+            width: 80%;
+        }
+    }
+}
+
+
+@media (max-width:1180px) {
+    .kontakt {
+        .kontakt-forma {
+            width: 90%;
+        }
+    }
+}
+
+
+@media (max-width:796px) {
+    .kontakt {
+        .kontakt-forma {
+            form {
+                .f1 {
+                    grid-template-columns: 1fr;
+                    grid-template-rows: repeat(4, 1fr);
+                }
+            }
+
         }
     }
 }
