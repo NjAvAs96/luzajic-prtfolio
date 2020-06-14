@@ -262,10 +262,10 @@
 #monkeyS {
   .swiper-wrapper {
     .swiper-slide {
-      // img {
-      //   width: 100% !important;
-      //   height: 100%;
-      // }
+      img {
+        width: 100vw !important;
+        height: auto;
+      }
     }
   }
 }

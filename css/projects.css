@@ -262,6 +262,11 @@
   width: 100% !important;
 }
 
+#monkeyS .swiper-wrapper .swiper-slide img {
+  width: 100vw !important;
+  height: auto;
+}
+
 #IL1S .swiper-wrapper .swiper-slide img {
   width: 100% !important;
 }
