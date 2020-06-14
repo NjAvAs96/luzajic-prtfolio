@@ -808,6 +808,7 @@ html body #projects .project .main-page .main-page-content .column3 .horisontal-
 }
 
 html body .swiper-container {
+  overflow: hidden;
   width: 100vw;
   height: 100vh;
   overflow: hidden;
