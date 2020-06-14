@@ -1,4 +1,5 @@
 #about-me {
+  overflow: hidden;
   background-color: #161616;
   min-height: 100vh;
   display: -ms-grid;

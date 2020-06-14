@@ -282,6 +282,7 @@ html body #home .home-content .get-started:hover a p {
 }
 
 html body #about-me {
+  overflow: hidden;
   background-color: #161616;
   min-height: 100vh;
   display: -ms-grid;
@@ -599,6 +600,7 @@ html body #about-me .bars .bar #barIN::after {
 
 html body #projects .project {
   min-height: 200vh;
+  overflow-x: hidden;
   margin: 0 auto;
 }
 
@@ -1063,7 +1065,7 @@ html body .kontakt .kontakt-forma form button:hover {
 html body .arrow-up {
   position: fixed;
   bottom: 20px;
-  left: 70px;
+  right: 70px;
   z-index: 1000;
   width: 50px;
   height: 50px;
