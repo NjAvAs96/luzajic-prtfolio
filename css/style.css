@@ -261,7 +261,7 @@ html body #home .home-content a .arrow-down:hover {
 }
 
 html body #home .home-content .get-started {
-  width: 13%;
+  width: auto;
   -ms-flex-item-align: end;
       align-self: flex-end;
   display: -webkit-box;
@@ -270,6 +270,7 @@ html body #home .home-content .get-started {
 }
 
 html body #home .home-content .get-started a p {
+  padding-right: 5px;
   font-size: 14pt;
 }
 

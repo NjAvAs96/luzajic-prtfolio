@@ -118,7 +118,7 @@
 }
 
 #home .home-content .get-started {
-  width: 13%;
+  width: auto;
   -ms-flex-item-align: end;
       align-self: flex-end;
   display: -webkit-box;
@@ -127,6 +127,7 @@
 }
 
 #home .home-content .get-started a p {
+  padding-right: 5px;
   font-size: 14pt;
 }
 
