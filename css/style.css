@@ -581,6 +581,13 @@ html body #about-me .bars .bar #barIN::after {
   }
 }
 
+@media (max-width: 570px) {
+  html body #about-me h3 {
+    font-size: 80pt;
+    text-align: center;
+  }
+}
+
 html body #projects .project {
   min-height: 200vh;
   margin: 0 auto;
