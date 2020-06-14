@@ -1063,7 +1063,7 @@ html body .kontakt .kontakt-forma form button:hover {
 html body .arrow-up {
   position: fixed;
   bottom: 20px;
-  right: 70px;
+  left: 70px;
   z-index: 1000;
   width: 50px;
   height: 50px;
