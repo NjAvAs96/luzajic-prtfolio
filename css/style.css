@@ -826,6 +826,11 @@ html body .swiper-container .swiper-wrapper .swiper-slide {
           align-items: center;
 }
 
+html body .swiper-container .swiper-wrapper .swiper-slide img {
+  width: 100vw !important;
+  height: auto;
+}
+
 html body .swiper-container .swiper-pagination .swiper-pagination-bullet {
   width: 100px;
   height: 5px;
@@ -857,7 +862,8 @@ html body .swiper-container #BLUECITY-pagination .swiper-pagination-bullet-activ
 }
 
 html body #fusionS .swiper-wrapper .swiper-slide img {
-  width: 100% !important;
+  width: 100vw !important;
+  height: auto;
 }
 
 html body #monkeyS .swiper-wrapper .swiper-slide img {
@@ -866,7 +872,8 @@ html body #monkeyS .swiper-wrapper .swiper-slide img {
 }
 
 html body #IL1S .swiper-wrapper .swiper-slide img {
-  width: 100% !important;
+  width: 100vw !important;
+  height: auto;
 }
 
 @media (max-width: 1080px) {

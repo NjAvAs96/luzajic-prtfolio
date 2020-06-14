@@ -201,6 +201,11 @@
       display: flex;
       justify-content: center;
       align-items: center;
+
+      img {
+        width: 100vw !important;
+        height: auto;
+      }
     }
   }
 
@@ -253,7 +258,8 @@
   .swiper-wrapper {
     .swiper-slide {
       img {
-        width: 100% !important;
+        width: 100vw !important;
+        height: auto;
       }
     }
   }
@@ -274,7 +280,8 @@
   .swiper-wrapper {
     .swiper-slide {
       img {
-        width: 100% !important;
+        width: 100vw !important;
+        height: auto;
       }
     }
   }

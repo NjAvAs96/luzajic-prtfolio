@@ -228,6 +228,11 @@
           align-items: center;
 }
 
+.swiper-container .swiper-wrapper .swiper-slide img {
+  width: 100vw !important;
+  height: auto;
+}
+
 .swiper-container .swiper-pagination .swiper-pagination-bullet {
   width: 100px;
   height: 5px;
@@ -259,7 +264,8 @@
 }
 
 #fusionS .swiper-wrapper .swiper-slide img {
-  width: 100% !important;
+  width: 100vw !important;
+  height: auto;
 }
 
 #monkeyS .swiper-wrapper .swiper-slide img {
@@ -268,7 +274,8 @@
 }
 
 #IL1S .swiper-wrapper .swiper-slide img {
-  width: 100% !important;
+  width: 100vw !important;
+  height: auto;
 }
 
 @media (max-width: 1080px) {
