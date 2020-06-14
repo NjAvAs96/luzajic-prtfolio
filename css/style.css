@@ -31,6 +31,7 @@
   color: #c5c5c5;
   font-family: mon-r;
   font-weight: 100;
+  overflow-x: hidden;
 }
 
 a {
@@ -323,6 +324,7 @@ html body #about-me p {
 }
 
 html body #about-me #about-text {
+  width: 80%;
   max-width: 592px;
   text-align: center;
 }
@@ -584,6 +586,12 @@ html body #about-me .bars .bar #barIN::after {
 @media (max-width: 570px) {
   html body #about-me h3 {
     font-size: 80pt;
+    text-align: center;
+  }
+}
+
+@media (max-width: 700px) {
+  html body #about-me p {
     text-align: center;
   }
 }

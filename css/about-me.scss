@@ -25,6 +25,7 @@
     }
 
     p {
+
         font-family: mon-l;
         font-size: 16pt;
         margin-top: 1%;
@@ -33,7 +34,9 @@
     }
 
     #about-text {
+        width: 80%;
         max-width: 592px;
+
         text-align: center;
     }
 
@@ -259,6 +262,15 @@
     #about-me {
         h3 {
             font-size: 80pt;
+            text-align: center;
+        }
+    }
+}
+
+@media (max-width:700px) {
+    #about-me {
+        p {
+            // font-size: 5pt;
             text-align: center;
         }
     }
