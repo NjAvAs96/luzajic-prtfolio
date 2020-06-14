@@ -1,4 +1,6 @@
 #projects {
+  // overflow-x: hidden;
+
   .project {
     min-height: 200vh;
 
@@ -203,7 +205,8 @@
       align-items: center;
 
       img {
-        width: 100vw !important;
+        width: 90vw !important;
+        max-width: 1080px;
         height: auto;
       }
     }

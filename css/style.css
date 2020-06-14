@@ -142,6 +142,7 @@ html body .loader-hidden {
 }
 
 html body #home {
+  overflow-x: hidden;
   width: 100%;
   min-height: 100vh;
   background-image: url(/img/homeBG.jpg);
@@ -827,7 +828,8 @@ html body .swiper-container .swiper-wrapper .swiper-slide {
 }
 
 html body .swiper-container .swiper-wrapper .swiper-slide img {
-  width: 100vw !important;
+  width: 90vw !important;
+  max-width: 1080px;
   height: auto;
 }
 

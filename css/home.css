@@ -1,4 +1,5 @@
 #home {
+  overflow-x: hidden;
   width: 100%;
   min-height: 100vh;
   background-image: url(/img/homeBG.jpg);

@@ -229,7 +229,8 @@
 }
 
 .swiper-container .swiper-wrapper .swiper-slide img {
-  width: 100vw !important;
+  width: 90vw !important;
+  max-width: 1080px;
   height: auto;
 }
 
