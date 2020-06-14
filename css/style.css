@@ -1060,6 +1060,12 @@ html body .kontakt .kontakt-forma form button:hover {
     -ms-grid-rows: (1fr)[4];
         grid-template-rows: repeat(4, 1fr);
   }
+  html body .kontakt .kontakt-forma form .f1 .input label {
+    font-size: 13px;
+  }
+  html body .kontakt .kontakt-forma form .input label {
+    font-size: 13px;
+  }
 }
 
 html body .arrow-up {
